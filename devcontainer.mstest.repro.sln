@@ -1,0 +1,38 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29509.3
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "devcontainer.mstest.repro", "devcontainer.mstest.repro\devcontainer.mstest.repro.csproj", "{569288D7-802C-47DE-8E5B-17CF42EC7512}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{EEC0AC61-65D4-4250-818C-19024E3F00A1}"
+	ProjectSection(SolutionItems) = preProject
+		.dockerignore = .dockerignore
+		Dockerfile = Dockerfile
+		README.md = README.md
+	EndProjectSection
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "devcontainer.mstest.repro.unit.tests", "devcontainer.mstest.repro.unit.tests\devcontainer.mstest.repro.unit.tests.csproj", "{ADBE832A-03AA-49E0-A494-9775DB9C5CD0}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{569288D7-802C-47DE-8E5B-17CF42EC7512}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{569288D7-802C-47DE-8E5B-17CF42EC7512}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{569288D7-802C-47DE-8E5B-17CF42EC7512}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{569288D7-802C-47DE-8E5B-17CF42EC7512}.Release|Any CPU.Build.0 = Debug|Any CPU
+		{ADBE832A-03AA-49E0-A494-9775DB9C5CD0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ADBE832A-03AA-49E0-A494-9775DB9C5CD0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ADBE832A-03AA-49E0-A494-9775DB9C5CD0}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{ADBE832A-03AA-49E0-A494-9775DB9C5CD0}.Release|Any CPU.Build.0 = Debug|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {0D2B3E27-2618-43D7-ACF1-2657FB5B78D8}
+	EndGlobalSection
+EndGlobal

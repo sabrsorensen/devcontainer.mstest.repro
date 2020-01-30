@@ -1,0 +1,5 @@
+{
+  "recommendations": [
+    "ms-vscode.csharp" // C# syntax and autocompletion support
+  ]
+}
